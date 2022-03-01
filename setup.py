@@ -43,8 +43,8 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        'django>=2.2',
-        'django-crispy-forms==1.14.*',
+        'django==3.2.*',
+        'django-crispy-forms==1.12.*',
         'djangoajax==3.2.*',
     ],
     license="BSD",
@@ -56,7 +56,7 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
-        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
 )
